@@ -96,28 +96,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
-    <TextView
-        android:id="@+id/forgot_password"
-        android:layout_width="122dp"
-        android:layout_height="29dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
-        android:text="Forgot password"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
-
     <Button
         android:id="@+id/login"
         android:layout_width="338dp"
         android:layout_height="47dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="113dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/button_shape"
-        android:text="login"
+        android:text="sign in"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/forgot_password" />
+        app:layout_constraintTop_toBottomOf="@+id/password" />
 
     <TextView
         android:id="@+id/textView7"
@@ -224,6 +215,7 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="15dp"
         android:text="Age"
         app:layout_constraintEnd_toStartOf="@+id/editTextNumber"
@@ -233,6 +225,7 @@
         android:id="@+id/editTextNumber"
         android:layout_width="29dp"
         android:layout_height="23dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="326dp"
         android:background="@drawable/button_shape"
         android:ems="10"
